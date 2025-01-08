@@ -43,19 +43,3 @@ You can find the source code of this project here:
      ```bash
     npm start
 This will launch the app in your browser at http://localhost:3000.
-
-## How to Deploy
-
-The app is deployed on Netlify. Here’s a summary of the deployment steps:
-
-1. Push your code to GitHub.
-2. Go to Netlify.
-3. Sign up or log in.
-4. Create a new site from GitHub.
-5. Select the repository for this project.
-6. Netlify will automatically build and deploy the app.
-7. You will receive a live URL for your deployed app.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests. If you have any suggestions, issues, or improvements, please create an issue on the GitHub repository.
