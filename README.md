@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Financial Data Filtering App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built using React that allows users to filter and view financial data based on various criteria such as date range, revenue, and net income. The app fetches financial data from an external API and provides an interactive UI for filtering and sorting the results in a table format.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+You can access the live demo of the app here:  
+[Live Demo on Netlify](https://comforting-malasada-7caa3b.netlify.app/)
 
-### `npm start`
+## GitHub Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can find the source code of this project here:  
+[GitHub Repository](https://github.com/DummuMounika/financial-data-filtering-app)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Data Fetching**: The app fetches data from the [Financial Modeling Prep API](https://financialmodelingprep.com/api/v3/income-statement/AAPL) for the company "Apple Inc." (AAPL).
+- **Filters**: 
+  - Date Range (Start and End Date)
+  - Revenue (Min and Max)
+  - Net Income (Min and Max)
+- **Sorting**: The data can be sorted by columns like Date, Revenue, and Net Income, with toggling between ascending and descending order.
+- **Pagination**: The data is paginated, showing 5 items per page with navigation controls for previous and next pages.
+- **Error Handling**: Includes an error boundary to catch unexpected issues and display a fallback UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: JavaScript library for building user interfaces.
+- **DatePicker**: For selecting date ranges.
+- **Helmet**: For managing changes to the document head, such as setting the page title.
+- **Tailwind CSS**: For responsive and styled UI components.
+- **FinancialModelingPrep API**: For fetching real-time financial data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Run the Project Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/DummuMounika/financial-data-filtering-app.git
+2. Install dependencies:
+    ```bash
+    npm install
+3.  Start the development server:
+     ```bash
+    npm start
+This will launch the app in your browser at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Deploy
 
-### `npm run eject`
+The app is deployed on Netlify. Here’s a summary of the deployment steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Push your code to GitHub.
+2. Go to Netlify.
+3. Sign up or log in.
+4. Create a new site from GitHub.
+5. Select the repository for this project.
+6. Netlify will automatically build and deploy the app.
+7. You will receive a live URL for your deployed app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to fork this repository and submit pull requests. If you have any suggestions, issues, or improvements, please create an issue on the GitHub repository.
