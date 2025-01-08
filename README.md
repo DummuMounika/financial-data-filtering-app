@@ -25,7 +25,7 @@ You can find the source code of this project here:
 
 ## Technologies Used
 
-- **React**: JavaScript library for building user interfaces.
+- **React**: TypeScript library for building user interfaces.
 - **DatePicker**: For selecting date ranges.
 - **Helmet**: For managing changes to the document head, such as setting the page title.
 - **Tailwind CSS**: For responsive and styled UI components.
